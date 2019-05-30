@@ -15,6 +15,24 @@ public class Validation {
 		int randomNumber = randomMaker.nextInt(5);
 		
 		System.out.println(randomNumber);
+		String hi = JOptionPane.showInputDialog(null,"Hi. Please input a number from 0-4.");
+		if(hi.equals("2")) {
+			System.out.println("You are cool.");
+			
+			
+		}
+		if(hi.equals("1")) {
+			System.out.println("You are amazing.");
+		}
+		if(hi.equals("3")) {
+			System.out.println("You are remarkable.");
+		}
+		if(hi.equals("0")) {
+			System.out.println("You are very smart.");
+		}
+		if(hi.contentEquals("4")) {
+			System.out.println("You are very intriguing.");
+		}
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
 
